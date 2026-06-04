@@ -3,33 +3,147 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		301FC6BB2FD190CF0019443E /* Notification+DataReset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6612FD190CF0019443E /* Notification+DataReset.swift */; };
+		301FC6BC2FD190CF0019443E /* AchievementDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6632FD190CF0019443E /* AchievementDefinition.swift */; };
+		301FC6BD2FD190CF0019443E /* AppExportBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6642FD190CF0019443E /* AppExportBundle.swift */; };
+		301FC6BE2FD190CF0019443E /* BodyScanSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6652FD190CF0019443E /* BodyScanSession.swift */; };
+		301FC6BF2FD190CF0019443E /* BreathingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6662FD190CF0019443E /* BreathingSession.swift */; };
+		301FC6C02FD190CF0019443E /* BreathPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6672FD190CF0019443E /* BreathPattern.swift */; };
+		301FC6C12FD190CF0019443E /* GratitudeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6682FD190CF0019443E /* GratitudeEntry.swift */; };
+		301FC6C22FD190CF0019443E /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6692FD190CF0019443E /* JournalEntry.swift */; };
+		301FC6C32FD190CF0019443E /* JournalTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC66A2FD190CF0019443E /* JournalTemplate.swift */; };
+		301FC6C42FD190CF0019443E /* MindfulnessEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC66B2FD190CF0019443E /* MindfulnessEntry.swift */; };
+		301FC6C52FD190CF0019443E /* ReminderSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC66C2FD190CF0019443E /* ReminderSettings.swift */; };
+		301FC6C62FD190CF0019443E /* AppNavigationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC66E2FD190CF0019443E /* AppNavigationState.swift */; };
+		301FC6C72FD190CF0019443E /* AchievementEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6702FD190CF0019443E /* AchievementEvaluator.swift */; };
+		301FC6C82FD190CF0019443E /* DataTransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6712FD190CF0019443E /* DataTransferService.swift */; };
+		301FC6C92FD190CF0019443E /* FeedbackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6722FD190CF0019443E /* FeedbackService.swift */; };
+		301FC6CA2FD190CF0019443E /* MoodScoreMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6732FD190CF0019443E /* MoodScoreMapper.swift */; };
+		301FC6CB2FD190CF0019443E /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6742FD190CF0019443E /* NotificationScheduler.swift */; };
+		301FC6CC2FD190CF0019443E /* WidgetSnapshotWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6752FD190CF0019443E /* WidgetSnapshotWriter.swift */; };
+		301FC6CD2FD190CF0019443E /* AppDataStore+Features.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6772FD190CF0019443E /* AppDataStore+Features.swift */; };
+		301FC6CE2FD190CF0019443E /* AppExternalLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6782FD190CF0019443E /* AppExternalLinks.swift */; };
+		301FC6CF2FD190CF0019443E /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6792FD190CF0019443E /* AppStorage.swift */; };
+		301FC6D02FD190CF0019443E /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC67B2FD190CF0019443E /* AchievementsView.swift */; };
+		301FC6D12FD190CF0019443E /* BreathRelaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC67D2FD190CF0019443E /* BreathRelaxView.swift */; };
+		301FC6D22FD190CF0019443E /* BreathRelaxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC67E2FD190CF0019443E /* BreathRelaxViewModel.swift */; };
+		301FC6D32FD190CF0019443E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6802FD190CF0019443E /* HomeView.swift */; };
+		301FC6D42FD190CF0019443E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6822FD190CF0019443E /* MainTabView.swift */; };
+		301FC6D52FD190CF0019443E /* BodyScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6842FD190CF0019443E /* BodyScanView.swift */; };
+		301FC6D62FD190CF0019443E /* GratitudeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6852FD190CF0019443E /* GratitudeView.swift */; };
+		301FC6D72FD190CF0019443E /* MindfulnessInsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6872FD190CF0019443E /* MindfulnessInsightsView.swift */; };
+		301FC6D82FD190CF0019443E /* MindfulnessInsightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6882FD190CF0019443E /* MindfulnessInsightsViewModel.swift */; };
+		301FC6D92FD190CF0019443E /* JournalEntryEditorContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC68A2FD190CF0019443E /* JournalEntryEditorContainer.swift */; };
+		301FC6DA2FD190CF0019443E /* JournalEntrySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC68B2FD190CF0019443E /* JournalEntrySheet.swift */; };
+		301FC6DB2FD190CF0019443E /* JournalFiltersSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC68C2FD190CF0019443E /* JournalFiltersSheet.swift */; };
+		301FC6DC2FD190CF0019443E /* MoodJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC68D2FD190CF0019443E /* MoodJournalView.swift */; };
+		301FC6DD2FD190CF0019443E /* MoodJournalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC68E2FD190CF0019443E /* MoodJournalViewModel.swift */; };
+		301FC6DE2FD190CF0019443E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6902FD190CF0019443E /* OnboardingView.swift */; };
+		301FC6DF2FD190CF0019443E /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6922FD190CF0019443E /* PrivacyPolicyView.swift */; };
+		301FC6E02FD190CF0019443E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6932FD190CF0019443E /* SettingsView.swift */; };
+		301FC6E12FD190CF0019443E /* DailyCheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6952FD190CF0019443E /* DailyCheckInView.swift */; };
+		301FC6E22FD190CF0019443E /* WellnessHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6972FD190CF0019443E /* WellnessHubView.swift */; };
+		301FC6E32FD190CF0019443E /* AchievementBadgeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC69C2FD190CF0019443E /* AchievementBadgeCell.swift */; };
+		301FC6E42FD190CF0019443E /* ActionRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC69D2FD190CF0019443E /* ActionRowCell.swift */; };
+		301FC6E52FD190CF0019443E /* EmptyStateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC69E2FD190CF0019443E /* EmptyStateCell.swift */; };
+		301FC6E62FD190CF0019443E /* HomeWidgetCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC69F2FD190CF0019443E /* HomeWidgetCells.swift */; };
+		301FC6E72FD190CF0019443E /* JournalEntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6A02FD190CF0019443E /* JournalEntryCell.swift */; };
+		301FC6E82FD190CF0019443E /* MetricTileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6A12FD190CF0019443E /* MetricTileCell.swift */; };
+		301FC6E92FD190CF0019443E /* MoodPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6A22FD190CF0019443E /* MoodPickerCell.swift */; };
+		301FC6EA2FD190CF0019443E /* SessionHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6A32FD190CF0019443E /* SessionHistoryCell.swift */; };
+		301FC6EB2FD190CF0019443E /* AppCardStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6A52FD190CF0019443E /* AppCardStyle.swift */; };
+		301FC6EC2FD190CF0019443E /* AppVisualStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6A62FD190CF0019443E /* AppVisualStyle.swift */; };
+		301FC6ED2FD190CF0019443E /* AchievementBannerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6A82FD190CF0019443E /* AchievementBannerManager.swift */; };
+		301FC6EE2FD190CF0019443E /* AppBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6A92FD190CF0019443E /* AppBackgroundView.swift */; };
+		301FC6EF2FD190CF0019443E /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6AA2FD190CF0019443E /* PrimaryButtonStyle.swift */; };
+		301FC6F02FD190CF0019443E /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6AB2FD190CF0019443E /* ShakeEffect.swift */; };
+		301FC6F12FD190CF0019443E /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6AC2FD190CF0019443E /* ShareSheet.swift */; };
+		301FC6F22FD190CF0019443E /* SuccessCheckmarkOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6AD2FD190CF0019443E /* SuccessCheckmarkOverlay.swift */; };
+		301FC6F32FD190CF0019443E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6B02FD190CF0019443E /* AppDelegate.swift */; };
+		301FC6F42FD190CF0019443E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6B22FD190CF0019443E /* ContentView.swift */; };
+		301FC6F52FD190CF0019443E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6B82FD190CF0019443E /* SceneDelegate.swift */; };
+		301FC6F62FD190CF0019443E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC6B92FD190CF0019443E /* ViewController.swift */; };
+		301FC6F72FD190CF0019443E /* privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 301FC69A2FD190CF0019443E /* privacy_policy.md */; };
+		301FC6F82FD190CF0019443E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301FC6B12FD190CF0019443E /* Assets.xcassets */; };
+		301FC6FA2FD190CF0019443E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301FC6B52FD190CF0019443E /* LaunchScreen.storyboard */; };
+		301FC6FB2FD190CF0019443E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301FC6B72FD190CF0019443E /* Main.storyboard */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		301FC31B2FD17E780019443E /* 205HarborAlmanac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 205HarborAlmanac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		301FC6612FD190CF0019443E /* Notification+DataReset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+DataReset.swift"; sourceTree = "<group>"; };
+		301FC6632FD190CF0019443E /* AchievementDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementDefinition.swift; sourceTree = "<group>"; };
+		301FC6642FD190CF0019443E /* AppExportBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExportBundle.swift; sourceTree = "<group>"; };
+		301FC6652FD190CF0019443E /* BodyScanSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyScanSession.swift; sourceTree = "<group>"; };
+		301FC6662FD190CF0019443E /* BreathingSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingSession.swift; sourceTree = "<group>"; };
+		301FC6672FD190CF0019443E /* BreathPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathPattern.swift; sourceTree = "<group>"; };
+		301FC6682FD190CF0019443E /* GratitudeEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeEntry.swift; sourceTree = "<group>"; };
+		301FC6692FD190CF0019443E /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		301FC66A2FD190CF0019443E /* JournalTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTemplate.swift; sourceTree = "<group>"; };
+		301FC66B2FD190CF0019443E /* MindfulnessEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulnessEntry.swift; sourceTree = "<group>"; };
+		301FC66C2FD190CF0019443E /* ReminderSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderSettings.swift; sourceTree = "<group>"; };
+		301FC66E2FD190CF0019443E /* AppNavigationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationState.swift; sourceTree = "<group>"; };
+		301FC6702FD190CF0019443E /* AchievementEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementEvaluator.swift; sourceTree = "<group>"; };
+		301FC6712FD190CF0019443E /* DataTransferService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTransferService.swift; sourceTree = "<group>"; };
+		301FC6722FD190CF0019443E /* FeedbackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackService.swift; sourceTree = "<group>"; };
+		301FC6732FD190CF0019443E /* MoodScoreMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodScoreMapper.swift; sourceTree = "<group>"; };
+		301FC6742FD190CF0019443E /* NotificationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
+		301FC6752FD190CF0019443E /* WidgetSnapshotWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSnapshotWriter.swift; sourceTree = "<group>"; };
+		301FC6772FD190CF0019443E /* AppDataStore+Features.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDataStore+Features.swift"; sourceTree = "<group>"; };
+		301FC6782FD190CF0019443E /* AppExternalLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalLinks.swift; sourceTree = "<group>"; };
+		301FC6792FD190CF0019443E /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		301FC67B2FD190CF0019443E /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		301FC67D2FD190CF0019443E /* BreathRelaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathRelaxView.swift; sourceTree = "<group>"; };
+		301FC67E2FD190CF0019443E /* BreathRelaxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathRelaxViewModel.swift; sourceTree = "<group>"; };
+		301FC6802FD190CF0019443E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		301FC6822FD190CF0019443E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		301FC6842FD190CF0019443E /* BodyScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyScanView.swift; sourceTree = "<group>"; };
+		301FC6852FD190CF0019443E /* GratitudeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeView.swift; sourceTree = "<group>"; };
+		301FC6872FD190CF0019443E /* MindfulnessInsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulnessInsightsView.swift; sourceTree = "<group>"; };
+		301FC6882FD190CF0019443E /* MindfulnessInsightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulnessInsightsViewModel.swift; sourceTree = "<group>"; };
+		301FC68A2FD190CF0019443E /* JournalEntryEditorContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryEditorContainer.swift; sourceTree = "<group>"; };
+		301FC68B2FD190CF0019443E /* JournalEntrySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntrySheet.swift; sourceTree = "<group>"; };
+		301FC68C2FD190CF0019443E /* JournalFiltersSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalFiltersSheet.swift; sourceTree = "<group>"; };
+		301FC68D2FD190CF0019443E /* MoodJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodJournalView.swift; sourceTree = "<group>"; };
+		301FC68E2FD190CF0019443E /* MoodJournalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodJournalViewModel.swift; sourceTree = "<group>"; };
+		301FC6902FD190CF0019443E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		301FC6922FD190CF0019443E /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		301FC6932FD190CF0019443E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		301FC6952FD190CF0019443E /* DailyCheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCheckInView.swift; sourceTree = "<group>"; };
+		301FC6972FD190CF0019443E /* WellnessHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellnessHubView.swift; sourceTree = "<group>"; };
+		301FC69A2FD190CF0019443E /* privacy_policy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = privacy_policy.md; sourceTree = "<group>"; };
+		301FC69C2FD190CF0019443E /* AchievementBadgeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementBadgeCell.swift; sourceTree = "<group>"; };
+		301FC69D2FD190CF0019443E /* ActionRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRowCell.swift; sourceTree = "<group>"; };
+		301FC69E2FD190CF0019443E /* EmptyStateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateCell.swift; sourceTree = "<group>"; };
+		301FC69F2FD190CF0019443E /* HomeWidgetCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWidgetCells.swift; sourceTree = "<group>"; };
+		301FC6A02FD190CF0019443E /* JournalEntryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryCell.swift; sourceTree = "<group>"; };
+		301FC6A12FD190CF0019443E /* MetricTileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricTileCell.swift; sourceTree = "<group>"; };
+		301FC6A22FD190CF0019443E /* MoodPickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodPickerCell.swift; sourceTree = "<group>"; };
+		301FC6A32FD190CF0019443E /* SessionHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionHistoryCell.swift; sourceTree = "<group>"; };
+		301FC6A52FD190CF0019443E /* AppCardStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCardStyle.swift; sourceTree = "<group>"; };
+		301FC6A62FD190CF0019443E /* AppVisualStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVisualStyle.swift; sourceTree = "<group>"; };
+		301FC6A82FD190CF0019443E /* AchievementBannerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementBannerManager.swift; sourceTree = "<group>"; };
+		301FC6A92FD190CF0019443E /* AppBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackgroundView.swift; sourceTree = "<group>"; };
+		301FC6AA2FD190CF0019443E /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		301FC6AB2FD190CF0019443E /* ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
+		301FC6AC2FD190CF0019443E /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		301FC6AD2FD190CF0019443E /* SuccessCheckmarkOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessCheckmarkOverlay.swift; sourceTree = "<group>"; };
+		301FC6B02FD190CF0019443E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		301FC6B12FD190CF0019443E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		301FC6B22FD190CF0019443E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		301FC6B32FD190CF0019443E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		301FC6B42FD190CF0019443E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		301FC6B62FD190CF0019443E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		301FC6B82FD190CF0019443E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		301FC6B92FD190CF0019443E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71C4A31CF0DA0C6859A34DBA /* Pods-205HarborAlmanac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-205HarborAlmanac.release.xcconfig"; path = "Target Support Files/Pods-205HarborAlmanac/Pods-205HarborAlmanac.release.xcconfig"; sourceTree = "<group>"; };
+		D99608943470E4D40A9229EC /* Pods-205HarborAlmanac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-205HarborAlmanac.debug.xcconfig"; path = "Target Support Files/Pods-205HarborAlmanac/Pods-205HarborAlmanac.debug.xcconfig"; sourceTree = "<group>"; };
+		E3C4B8964850AF592116DFA8 /* Pods_205HarborAlmanac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_205HarborAlmanac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		301FC32D2FD17E7A0019443E /* Exceptions for "205HarborAlmanac" folder in "205HarborAlmanac" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 301FC31A2FD17E780019443E /* 205HarborAlmanac */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		301FC31D2FD17E780019443E /* 205HarborAlmanac */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				301FC32D2FD17E7A0019443E /* Exceptions for "205HarborAlmanac" folder in "205HarborAlmanac" target */,
-			);
-			path = 205HarborAlmanac;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		301FC3182FD17E780019443E /* Frameworks */ = {
@@ -45,8 +159,10 @@
 		301FC3122FD17E780019443E = {
 			isa = PBXGroup;
 			children = (
-				301FC31D2FD17E780019443E /* 205HarborAlmanac */,
+				301FC6BA2FD190CF0019443E /* 205HarborAlmanac */,
 				301FC31C2FD17E780019443E /* Products */,
+				E965829D7C7AB820EDD82D25 /* Pods */,
+				E4140F4F46489638D52C2638 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +174,271 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		301FC6622FD190CF0019443E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				301FC6612FD190CF0019443E /* Notification+DataReset.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		301FC66D2FD190CF0019443E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				301FC6632FD190CF0019443E /* AchievementDefinition.swift */,
+				301FC6642FD190CF0019443E /* AppExportBundle.swift */,
+				301FC6652FD190CF0019443E /* BodyScanSession.swift */,
+				301FC6662FD190CF0019443E /* BreathingSession.swift */,
+				301FC6672FD190CF0019443E /* BreathPattern.swift */,
+				301FC6682FD190CF0019443E /* GratitudeEntry.swift */,
+				301FC6692FD190CF0019443E /* JournalEntry.swift */,
+				301FC66A2FD190CF0019443E /* JournalTemplate.swift */,
+				301FC66B2FD190CF0019443E /* MindfulnessEntry.swift */,
+				301FC66C2FD190CF0019443E /* ReminderSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		301FC66F2FD190CF0019443E /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				301FC66E2FD190CF0019443E /* AppNavigationState.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		301FC6762FD190CF0019443E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				301FC6702FD190CF0019443E /* AchievementEvaluator.swift */,
+				301FC6712FD190CF0019443E /* DataTransferService.swift */,
+				301FC6722FD190CF0019443E /* FeedbackService.swift */,
+				301FC6732FD190CF0019443E /* MoodScoreMapper.swift */,
+				301FC6742FD190CF0019443E /* NotificationScheduler.swift */,
+				301FC6752FD190CF0019443E /* WidgetSnapshotWriter.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		301FC67A2FD190CF0019443E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				301FC6622FD190CF0019443E /* Extensions */,
+				301FC66D2FD190CF0019443E /* Models */,
+				301FC66F2FD190CF0019443E /* Navigation */,
+				301FC6762FD190CF0019443E /* Services */,
+				301FC6772FD190CF0019443E /* AppDataStore+Features.swift */,
+				301FC6782FD190CF0019443E /* AppExternalLinks.swift */,
+				301FC6792FD190CF0019443E /* AppStorage.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		301FC67C2FD190CF0019443E /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				301FC67B2FD190CF0019443E /* AchievementsView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		301FC67F2FD190CF0019443E /* BreathRelax */ = {
+			isa = PBXGroup;
+			children = (
+				301FC67D2FD190CF0019443E /* BreathRelaxView.swift */,
+				301FC67E2FD190CF0019443E /* BreathRelaxViewModel.swift */,
+			);
+			path = BreathRelax;
+			sourceTree = "<group>";
+		};
+		301FC6812FD190CF0019443E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				301FC6802FD190CF0019443E /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		301FC6832FD190CF0019443E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				301FC6822FD190CF0019443E /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		301FC6862FD190CF0019443E /* MicroPractices */ = {
+			isa = PBXGroup;
+			children = (
+				301FC6842FD190CF0019443E /* BodyScanView.swift */,
+				301FC6852FD190CF0019443E /* GratitudeView.swift */,
+			);
+			path = MicroPractices;
+			sourceTree = "<group>";
+		};
+		301FC6892FD190CF0019443E /* MindfulnessInsights */ = {
+			isa = PBXGroup;
+			children = (
+				301FC6872FD190CF0019443E /* MindfulnessInsightsView.swift */,
+				301FC6882FD190CF0019443E /* MindfulnessInsightsViewModel.swift */,
+			);
+			path = MindfulnessInsights;
+			sourceTree = "<group>";
+		};
+		301FC68F2FD190CF0019443E /* MoodJournal */ = {
+			isa = PBXGroup;
+			children = (
+				301FC68A2FD190CF0019443E /* JournalEntryEditorContainer.swift */,
+				301FC68B2FD190CF0019443E /* JournalEntrySheet.swift */,
+				301FC68C2FD190CF0019443E /* JournalFiltersSheet.swift */,
+				301FC68D2FD190CF0019443E /* MoodJournalView.swift */,
+				301FC68E2FD190CF0019443E /* MoodJournalViewModel.swift */,
+			);
+			path = MoodJournal;
+			sourceTree = "<group>";
+		};
+		301FC6912FD190CF0019443E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				301FC6902FD190CF0019443E /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		301FC6942FD190CF0019443E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				301FC6922FD190CF0019443E /* PrivacyPolicyView.swift */,
+				301FC6932FD190CF0019443E /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		301FC6962FD190CF0019443E /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				301FC6952FD190CF0019443E /* DailyCheckInView.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		301FC6982FD190CF0019443E /* Wellness */ = {
+			isa = PBXGroup;
+			children = (
+				301FC6972FD190CF0019443E /* WellnessHubView.swift */,
+			);
+			path = Wellness;
+			sourceTree = "<group>";
+		};
+		301FC6992FD190CF0019443E /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				301FC67C2FD190CF0019443E /* Achievements */,
+				301FC67F2FD190CF0019443E /* BreathRelax */,
+				301FC6812FD190CF0019443E /* Home */,
+				301FC6832FD190CF0019443E /* Main */,
+				301FC6862FD190CF0019443E /* MicroPractices */,
+				301FC6892FD190CF0019443E /* MindfulnessInsights */,
+				301FC68F2FD190CF0019443E /* MoodJournal */,
+				301FC6912FD190CF0019443E /* Onboarding */,
+				301FC6942FD190CF0019443E /* Settings */,
+				301FC6962FD190CF0019443E /* Today */,
+				301FC6982FD190CF0019443E /* Wellness */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		301FC69B2FD190CF0019443E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				301FC69A2FD190CF0019443E /* privacy_policy.md */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		301FC6A42FD190CF0019443E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				301FC69C2FD190CF0019443E /* AchievementBadgeCell.swift */,
+				301FC69D2FD190CF0019443E /* ActionRowCell.swift */,
+				301FC69E2FD190CF0019443E /* EmptyStateCell.swift */,
+				301FC69F2FD190CF0019443E /* HomeWidgetCells.swift */,
+				301FC6A02FD190CF0019443E /* JournalEntryCell.swift */,
+				301FC6A12FD190CF0019443E /* MetricTileCell.swift */,
+				301FC6A22FD190CF0019443E /* MoodPickerCell.swift */,
+				301FC6A32FD190CF0019443E /* SessionHistoryCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		301FC6A72FD190CF0019443E /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				301FC6A52FD190CF0019443E /* AppCardStyle.swift */,
+				301FC6A62FD190CF0019443E /* AppVisualStyle.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		301FC6AE2FD190CF0019443E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				301FC6A42FD190CF0019443E /* Cells */,
+				301FC6A72FD190CF0019443E /* Design */,
+				301FC6A82FD190CF0019443E /* AchievementBannerManager.swift */,
+				301FC6A92FD190CF0019443E /* AppBackgroundView.swift */,
+				301FC6AA2FD190CF0019443E /* PrimaryButtonStyle.swift */,
+				301FC6AB2FD190CF0019443E /* ShakeEffect.swift */,
+				301FC6AC2FD190CF0019443E /* ShareSheet.swift */,
+				301FC6AD2FD190CF0019443E /* SuccessCheckmarkOverlay.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		301FC6AF2FD190CF0019443E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				301FC6AE2FD190CF0019443E /* Components */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		301FC6BA2FD190CF0019443E /* 205HarborAlmanac */ = {
+			isa = PBXGroup;
+			children = (
+				301FC67A2FD190CF0019443E /* Core */,
+				301FC6992FD190CF0019443E /* Features */,
+				301FC69B2FD190CF0019443E /* Resources */,
+				301FC6AF2FD190CF0019443E /* UI */,
+				301FC6B02FD190CF0019443E /* AppDelegate.swift */,
+				301FC6B12FD190CF0019443E /* Assets.xcassets */,
+				301FC6B22FD190CF0019443E /* ContentView.swift */,
+				301FC6B32FD190CF0019443E /* Info.plist */,
+				301FC6B52FD190CF0019443E /* LaunchScreen.storyboard */,
+				301FC6B72FD190CF0019443E /* Main.storyboard */,
+				301FC6B82FD190CF0019443E /* SceneDelegate.swift */,
+				301FC6B92FD190CF0019443E /* ViewController.swift */,
+			);
+			path = 205HarborAlmanac;
+			sourceTree = "<group>";
+		};
+		E4140F4F46489638D52C2638 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3C4B8964850AF592116DFA8 /* Pods_205HarborAlmanac.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E965829D7C7AB820EDD82D25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D99608943470E4D40A9229EC /* Pods-205HarborAlmanac.debug.xcconfig */,
+				71C4A31CF0DA0C6859A34DBA /* Pods-205HarborAlmanac.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +446,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 301FC32E2FD17E7A0019443E /* Build configuration list for PBXNativeTarget "205HarborAlmanac" */;
 			buildPhases = (
+				DCEDDACF85EE18FE71393F68 /* [CP] Check Pods Manifest.lock */,
 				301FC3172FD17E780019443E /* Sources */,
 				301FC3182FD17E780019443E /* Frameworks */,
 				301FC3192FD17E780019443E /* Resources */,
@@ -73,12 +455,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				301FC31D2FD17E780019443E /* 205HarborAlmanac */,
-			);
 			name = 205HarborAlmanac;
-			packageProductDependencies = (
-			);
 			productName = 205HarborAlmanac;
 			productReference = 301FC31B2FD17E780019443E /* 205HarborAlmanac.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +476,7 @@
 				};
 			};
 			buildConfigurationList = 301FC3162FD17E780019443E /* Build configuration list for PBXProject "205HarborAlmanac" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +484,6 @@
 				Base,
 			);
 			mainGroup = 301FC3122FD17E780019443E;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 301FC31C2FD17E780019443E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +498,133 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				301FC6F72FD190CF0019443E /* privacy_policy.md in Resources */,
+				301FC6F82FD190CF0019443E /* Assets.xcassets in Resources */,
+				301FC6FA2FD190CF0019443E /* LaunchScreen.storyboard in Resources */,
+				301FC6FB2FD190CF0019443E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DCEDDACF85EE18FE71393F68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-205HarborAlmanac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		301FC3172FD17E780019443E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				301FC6BB2FD190CF0019443E /* Notification+DataReset.swift in Sources */,
+				301FC6BC2FD190CF0019443E /* AchievementDefinition.swift in Sources */,
+				301FC6BD2FD190CF0019443E /* AppExportBundle.swift in Sources */,
+				301FC6BE2FD190CF0019443E /* BodyScanSession.swift in Sources */,
+				301FC6BF2FD190CF0019443E /* BreathingSession.swift in Sources */,
+				301FC6C02FD190CF0019443E /* BreathPattern.swift in Sources */,
+				301FC6C12FD190CF0019443E /* GratitudeEntry.swift in Sources */,
+				301FC6C22FD190CF0019443E /* JournalEntry.swift in Sources */,
+				301FC6C32FD190CF0019443E /* JournalTemplate.swift in Sources */,
+				301FC6C42FD190CF0019443E /* MindfulnessEntry.swift in Sources */,
+				301FC6C52FD190CF0019443E /* ReminderSettings.swift in Sources */,
+				301FC6C62FD190CF0019443E /* AppNavigationState.swift in Sources */,
+				301FC6C72FD190CF0019443E /* AchievementEvaluator.swift in Sources */,
+				301FC6C82FD190CF0019443E /* DataTransferService.swift in Sources */,
+				301FC6C92FD190CF0019443E /* FeedbackService.swift in Sources */,
+				301FC6CA2FD190CF0019443E /* MoodScoreMapper.swift in Sources */,
+				301FC6CB2FD190CF0019443E /* NotificationScheduler.swift in Sources */,
+				301FC6CC2FD190CF0019443E /* WidgetSnapshotWriter.swift in Sources */,
+				301FC6CD2FD190CF0019443E /* AppDataStore+Features.swift in Sources */,
+				301FC6CE2FD190CF0019443E /* AppExternalLinks.swift in Sources */,
+				301FC6CF2FD190CF0019443E /* AppStorage.swift in Sources */,
+				301FC6D02FD190CF0019443E /* AchievementsView.swift in Sources */,
+				301FC6D12FD190CF0019443E /* BreathRelaxView.swift in Sources */,
+				301FC6D22FD190CF0019443E /* BreathRelaxViewModel.swift in Sources */,
+				301FC6D32FD190CF0019443E /* HomeView.swift in Sources */,
+				301FC6D42FD190CF0019443E /* MainTabView.swift in Sources */,
+				301FC6D52FD190CF0019443E /* BodyScanView.swift in Sources */,
+				301FC6D62FD190CF0019443E /* GratitudeView.swift in Sources */,
+				301FC6D72FD190CF0019443E /* MindfulnessInsightsView.swift in Sources */,
+				301FC6D82FD190CF0019443E /* MindfulnessInsightsViewModel.swift in Sources */,
+				301FC6D92FD190CF0019443E /* JournalEntryEditorContainer.swift in Sources */,
+				301FC6DA2FD190CF0019443E /* JournalEntrySheet.swift in Sources */,
+				301FC6DB2FD190CF0019443E /* JournalFiltersSheet.swift in Sources */,
+				301FC6DC2FD190CF0019443E /* MoodJournalView.swift in Sources */,
+				301FC6DD2FD190CF0019443E /* MoodJournalViewModel.swift in Sources */,
+				301FC6DE2FD190CF0019443E /* OnboardingView.swift in Sources */,
+				301FC6DF2FD190CF0019443E /* PrivacyPolicyView.swift in Sources */,
+				301FC6E02FD190CF0019443E /* SettingsView.swift in Sources */,
+				301FC6E12FD190CF0019443E /* DailyCheckInView.swift in Sources */,
+				301FC6E22FD190CF0019443E /* WellnessHubView.swift in Sources */,
+				301FC6E32FD190CF0019443E /* AchievementBadgeCell.swift in Sources */,
+				301FC6E42FD190CF0019443E /* ActionRowCell.swift in Sources */,
+				301FC6E52FD190CF0019443E /* EmptyStateCell.swift in Sources */,
+				301FC6E62FD190CF0019443E /* HomeWidgetCells.swift in Sources */,
+				301FC6E72FD190CF0019443E /* JournalEntryCell.swift in Sources */,
+				301FC6E82FD190CF0019443E /* MetricTileCell.swift in Sources */,
+				301FC6E92FD190CF0019443E /* MoodPickerCell.swift in Sources */,
+				301FC6EA2FD190CF0019443E /* SessionHistoryCell.swift in Sources */,
+				301FC6EB2FD190CF0019443E /* AppCardStyle.swift in Sources */,
+				301FC6EC2FD190CF0019443E /* AppVisualStyle.swift in Sources */,
+				301FC6ED2FD190CF0019443E /* AchievementBannerManager.swift in Sources */,
+				301FC6EE2FD190CF0019443E /* AppBackgroundView.swift in Sources */,
+				301FC6EF2FD190CF0019443E /* PrimaryButtonStyle.swift in Sources */,
+				301FC6F02FD190CF0019443E /* ShakeEffect.swift in Sources */,
+				301FC6F12FD190CF0019443E /* ShareSheet.swift in Sources */,
+				301FC6F22FD190CF0019443E /* SuccessCheckmarkOverlay.swift in Sources */,
+				301FC6F32FD190CF0019443E /* AppDelegate.swift in Sources */,
+				301FC6F42FD190CF0019443E /* ContentView.swift in Sources */,
+				301FC6F52FD190CF0019443E /* SceneDelegate.swift in Sources */,
+				301FC6F62FD190CF0019443E /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		301FC6B52FD190CF0019443E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				301FC6B42FD190CF0019443E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		301FC6B72FD190CF0019443E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				301FC6B62FD190CF0019443E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		301FC32F2FD17E7A0019443E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D99608943470E4D40A9229EC /* Pods-205HarborAlmanac.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +632,41 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 205HarborAlmanac/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Harbor Almanac";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-05HarborAlmanac";
+				PRODUCT_BUNDLE_IDENTIFIER = com.osk.h7rb0r8lm3n5c;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		301FC3302FD17E7A0019443E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71C4A31CF0DA0C6859A34DBA /* Pods-205HarborAlmanac.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +674,35 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 205HarborAlmanac/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Harbor Almanac";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-05HarborAlmanac";
+				PRODUCT_BUNDLE_IDENTIFIER = com.osk.h7rb0r8lm3n5c;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
