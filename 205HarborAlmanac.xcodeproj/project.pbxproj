@@ -71,6 +71,20 @@
 		301FC6F82FD190CF0019443E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301FC6B12FD190CF0019443E /* Assets.xcassets */; };
 		301FC6FA2FD190CF0019443E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301FC6B52FD190CF0019443E /* LaunchScreen.storyboard */; };
 		301FC6FB2FD190CF0019443E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301FC6B72FD190CF0019443E /* Main.storyboard */; };
+		3042358E2FDADBDE003E0977 /* LaunchFlowDebugOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304235832FDADBDE003E0977 /* LaunchFlowDebugOptions.swift */; };
+		3042358F2FDADBDE003E0977 /* RootWindowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3042358B2FDADBDE003E0977 /* RootWindowPresenter.swift */; };
+		304235902FDADBDE003E0977 /* LaunchDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304235822FDADBDE003E0977 /* LaunchDestination.swift */; };
+		304235912FDADBDE003E0977 /* LaunchFlowLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304235842FDADBDE003E0977 /* LaunchFlowLogger.swift */; };
+		304235922FDADBDE003E0977 /* DeferredLaunchCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304235812FDADBDE003E0977 /* DeferredLaunchCanvas.swift */; };
+		304235932FDADBDE003E0977 /* LaunchFlowResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304235852FDADBDE003E0977 /* LaunchFlowResolver.swift */; };
+		304235942FDADBDE003E0977 /* RemoteEntryURLComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3042358A2FDADBDE003E0977 /* RemoteEntryURLComposer.swift */; };
+		304235952FDADBDE003E0977 /* LaunchStagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304235882FDADBDE003E0977 /* LaunchStagingState.swift */; };
+		304235962FDADBDE003E0977 /* LaunchFlowSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304235862FDADBDE003E0977 /* LaunchFlowSecrets.swift */; };
+		304235972FDADBDE003E0977 /* WebDocumentSurfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3042358C2FDADBDE003E0977 /* WebDocumentSurfaceView.swift */; };
+		304235982FDADBDE003E0977 /* RemoteEntryProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304235892FDADBDE003E0977 /* RemoteEntryProbe.swift */; };
+		304235992FDADBDE003E0977 /* LaunchSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304235872FDADBDE003E0977 /* LaunchSessionStore.swift */; };
+		3042359A2FDADBDE003E0977 /* CalendarGateEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304235802FDADBDE003E0977 /* CalendarGateEvaluator.swift */; };
+		3042359C2FDADBE2003E0977 /* AppMarketingCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3042359B2FDADBE2003E0977 /* AppMarketingCopy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -140,6 +154,20 @@
 		301FC6B62FD190CF0019443E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		301FC6B82FD190CF0019443E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		301FC6B92FD190CF0019443E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		304235802FDADBDE003E0977 /* CalendarGateEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarGateEvaluator.swift; sourceTree = "<group>"; };
+		304235812FDADBDE003E0977 /* DeferredLaunchCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeferredLaunchCanvas.swift; sourceTree = "<group>"; };
+		304235822FDADBDE003E0977 /* LaunchDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDestination.swift; sourceTree = "<group>"; };
+		304235832FDADBDE003E0977 /* LaunchFlowDebugOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowDebugOptions.swift; sourceTree = "<group>"; };
+		304235842FDADBDE003E0977 /* LaunchFlowLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowLogger.swift; sourceTree = "<group>"; };
+		304235852FDADBDE003E0977 /* LaunchFlowResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowResolver.swift; sourceTree = "<group>"; };
+		304235862FDADBDE003E0977 /* LaunchFlowSecrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowSecrets.swift; sourceTree = "<group>"; };
+		304235872FDADBDE003E0977 /* LaunchSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSessionStore.swift; sourceTree = "<group>"; };
+		304235882FDADBDE003E0977 /* LaunchStagingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchStagingState.swift; sourceTree = "<group>"; };
+		304235892FDADBDE003E0977 /* RemoteEntryProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteEntryProbe.swift; sourceTree = "<group>"; };
+		3042358A2FDADBDE003E0977 /* RemoteEntryURLComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteEntryURLComposer.swift; sourceTree = "<group>"; };
+		3042358B2FDADBDE003E0977 /* RootWindowPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWindowPresenter.swift; sourceTree = "<group>"; };
+		3042358C2FDADBDE003E0977 /* WebDocumentSurfaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebDocumentSurfaceView.swift; sourceTree = "<group>"; };
+		3042359B2FDADBE2003E0977 /* AppMarketingCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMarketingCopy.swift; sourceTree = "<group>"; };
 		71C4A31CF0DA0C6859A34DBA /* Pods-205HarborAlmanac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-205HarborAlmanac.release.xcconfig"; path = "Target Support Files/Pods-205HarborAlmanac/Pods-205HarborAlmanac.release.xcconfig"; sourceTree = "<group>"; };
 		D99608943470E4D40A9229EC /* Pods-205HarborAlmanac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-205HarborAlmanac.debug.xcconfig"; path = "Target Support Files/Pods-205HarborAlmanac/Pods-205HarborAlmanac.debug.xcconfig"; sourceTree = "<group>"; };
 		E3C4B8964850AF592116DFA8 /* Pods_205HarborAlmanac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_205HarborAlmanac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -352,6 +380,7 @@
 			isa = PBXGroup;
 			children = (
 				301FC69A2FD190CF0019443E /* privacy_policy.md */,
+				3042359B2FDADBE2003E0977 /* AppMarketingCopy.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -418,8 +447,29 @@
 				301FC6B72FD190CF0019443E /* Main.storyboard */,
 				301FC6B82FD190CF0019443E /* SceneDelegate.swift */,
 				301FC6B92FD190CF0019443E /* ViewController.swift */,
+				3042358D2FDADBDE003E0977 /* LaunchFlow */,
 			);
 			path = 205HarborAlmanac;
+			sourceTree = "<group>";
+		};
+		3042358D2FDADBDE003E0977 /* LaunchFlow */ = {
+			isa = PBXGroup;
+			children = (
+				304235802FDADBDE003E0977 /* CalendarGateEvaluator.swift */,
+				304235812FDADBDE003E0977 /* DeferredLaunchCanvas.swift */,
+				304235822FDADBDE003E0977 /* LaunchDestination.swift */,
+				304235832FDADBDE003E0977 /* LaunchFlowDebugOptions.swift */,
+				304235842FDADBDE003E0977 /* LaunchFlowLogger.swift */,
+				304235852FDADBDE003E0977 /* LaunchFlowResolver.swift */,
+				304235862FDADBDE003E0977 /* LaunchFlowSecrets.swift */,
+				304235872FDADBDE003E0977 /* LaunchSessionStore.swift */,
+				304235882FDADBDE003E0977 /* LaunchStagingState.swift */,
+				304235892FDADBDE003E0977 /* RemoteEntryProbe.swift */,
+				3042358A2FDADBDE003E0977 /* RemoteEntryURLComposer.swift */,
+				3042358B2FDADBDE003E0977 /* RootWindowPresenter.swift */,
+				3042358C2FDADBDE003E0977 /* WebDocumentSurfaceView.swift */,
+			);
+			path = LaunchFlow;
 			sourceTree = "<group>";
 		};
 		E4140F4F46489638D52C2638 /* Frameworks */ = {
@@ -539,6 +589,19 @@
 			files = (
 				301FC6BB2FD190CF0019443E /* Notification+DataReset.swift in Sources */,
 				301FC6BC2FD190CF0019443E /* AchievementDefinition.swift in Sources */,
+				3042358E2FDADBDE003E0977 /* LaunchFlowDebugOptions.swift in Sources */,
+				3042358F2FDADBDE003E0977 /* RootWindowPresenter.swift in Sources */,
+				304235902FDADBDE003E0977 /* LaunchDestination.swift in Sources */,
+				304235912FDADBDE003E0977 /* LaunchFlowLogger.swift in Sources */,
+				304235922FDADBDE003E0977 /* DeferredLaunchCanvas.swift in Sources */,
+				304235932FDADBDE003E0977 /* LaunchFlowResolver.swift in Sources */,
+				304235942FDADBDE003E0977 /* RemoteEntryURLComposer.swift in Sources */,
+				304235952FDADBDE003E0977 /* LaunchStagingState.swift in Sources */,
+				304235962FDADBDE003E0977 /* LaunchFlowSecrets.swift in Sources */,
+				304235972FDADBDE003E0977 /* WebDocumentSurfaceView.swift in Sources */,
+				304235982FDADBDE003E0977 /* RemoteEntryProbe.swift in Sources */,
+				304235992FDADBDE003E0977 /* LaunchSessionStore.swift in Sources */,
+				3042359A2FDADBDE003E0977 /* CalendarGateEvaluator.swift in Sources */,
 				301FC6BD2FD190CF0019443E /* AppExportBundle.swift in Sources */,
 				301FC6BE2FD190CF0019443E /* BodyScanSession.swift in Sources */,
 				301FC6BF2FD190CF0019443E /* BreathingSession.swift in Sources */,
@@ -549,6 +612,7 @@
 				301FC6C42FD190CF0019443E /* MindfulnessEntry.swift in Sources */,
 				301FC6C52FD190CF0019443E /* ReminderSettings.swift in Sources */,
 				301FC6C62FD190CF0019443E /* AppNavigationState.swift in Sources */,
+				3042359C2FDADBE2003E0977 /* AppMarketingCopy.swift in Sources */,
 				301FC6C72FD190CF0019443E /* AchievementEvaluator.swift in Sources */,
 				301FC6C82FD190CF0019443E /* DataTransferService.swift in Sources */,
 				301FC6C92FD190CF0019443E /* FeedbackService.swift in Sources */,
@@ -647,7 +711,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.osk.h7rb0r8lm3n5c;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -689,7 +753,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.osk.h7rb0r8lm3n5c;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
